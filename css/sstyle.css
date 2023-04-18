@@ -41,7 +41,7 @@ header{
     color: white;
  }
  /* margin nav */
- .col_nav>h3{
+ .margin_horizontal_item{
     margin: 0px 5px;
  }
  /* margin profile */
@@ -55,7 +55,7 @@ header{
  }
 /* size container main */
  .container_main{
-    width: 69%;
+    width: 70%;
     margin: auto;
  }
 /* size, position and cald col card */
@@ -140,3 +140,47 @@ header{
  }
 
  /* -----FOOTER----- */
+ /* color and size footer */
+ footer{
+    background-color: rgba(26,26,26,1);
+    margin-top: 30px;
+ }
+/* color and size container footer */
+ .container_footer{
+    width: 70%;
+    margin: auto;
+    color: white;
+ }
+/* flex properties row footer */
+ .row_footer{
+    display: flex;
+    justify-content: space-between;
+ }
+/* size col info and col social */
+ .col_info, .col_social{
+    padding: 25px 0 5px 0;
+ }
+/* text size p in col info */
+ .col_info>p{
+    font-size: 13px;
+ }
+/* vertical margin */
+ .margin_vertical_item{
+    margin: 20px 0px;
+ }
+/* horizontal margin */
+ .margin_horizontal_item{
+    margin: 0px 10px;
+ }
+/* ssocial logo size */
+ .social_logo{
+    font-size: 130%;
+ }
+/* left margin */
+ .margin_left{
+    margin-left: 10px;
+ }
+/* right margin */
+ .margin_right{
+    margin-right: 10px;
+ }
