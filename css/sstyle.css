@@ -14,36 +14,129 @@ header{
     width: 100%;
     top: 0;
     left: 0;
+    z-index: 10;
 }
 /* size container header */
  .container_header{
     width: 70%;
     margin: auto;
  }
-/* size and flex properties */
+ /* size and flex properties */
  .row_header{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 0px;
  }
-/* size logo */
+ /* size logo */
  .logo{
     width: 150px;
  }
-/* inlie block header itmes */
+ /* inlie block header itmes */
  .inline_block{
     display: inline-block;
  }
-/* text color */
+ /* text color */
  .col_nav>h3, .col_profilo>div{
     color: white;
  }
-/* margin nav */
+ /* margin nav */
  .col_nav>h3{
     margin: 0px 5px;
  }
-/* margin profile */
+ /* margin profile */
  .col_profilo>div{
     margin: 0px 2px;
  }
+
+ /* -----MAIN----- */
+ main{
+    margin-top: 150px;
+ }
+/* size container main */
+ .container_main{
+    width: 69%;
+    margin: auto;
+ }
+/* size, position and cald col card */
+ .col_card{
+    width: calc(100% / 3 - 20px);
+    margin: 30px 10px;
+    position: relative;
+ }
+/* size and flex properties */
+ .row_main{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+ }
+ /* size img main */
+ .img_main{
+    width: 100%;
+ }
+/* color red price */
+ .red_price{
+    color: red;
+ }
+/* decoration barred price */
+ .barred_price{
+    text-decoration: line-through;
+ }
+/* possitio, color and size discount */
+ .discount{
+    position: absolute;
+    bottom: 16%;
+    left: 0;
+    background-color: red;
+    padding: 2px 5px;
+    color: white;
+    font-size: 15px;
+ }
+/* position, color, size of sustainability and sustainability only  */
+ .sustainability, .sustainability_only{
+    position: absolute;
+    bottom: 16%;
+    background-color: green;
+    padding: 2px 5px;
+    color: white;
+    font-size: 15px;
+ }
+/* positio sustainability */
+ .sustainability{
+    left: 12%;
+ }
+/* position sustainability only */
+ .sustainability_only{
+    left: 0;
+ }
+/* position, size and color heart */
+ .heart{
+    position: absolute;
+    right: 0;
+    top: 2%;
+    font-size: 35px;
+    background-color: white;
+    padding: 0 12px 0 12px;
+ }
+/* heart hover color red */
+ .heart:hover{
+    color: red;
+ }
+/* visible card block */
+ .visible{
+    display: block;
+ }
+/* invisible card block */
+ .invisible{
+    display: none;
+ }
+/* col cared hover of visible none */
+ .col_card:hover .visible{
+    display: none;
+ }
+/* col cared hover of invisible block */
+ .col_card:hover .invisible{
+    display: block;
+ }
+
+ /* -----FOOTER----- */
