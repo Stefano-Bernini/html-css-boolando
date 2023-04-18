@@ -90,7 +90,7 @@ header{
     background-color: red;
     padding: 2px 5px;
     color: white;
-    font-size: 15px;
+    font-size: 20px;
  }
 /* position, color, size of sustainability and sustainability only  */
  .sustainability, .sustainability_only{
@@ -99,7 +99,7 @@ header{
     background-color: green;
     padding: 2px 5px;
     color: white;
-    font-size: 15px;
+    font-size: 20px;
  }
 /* positio sustainability */
  .sustainability{
