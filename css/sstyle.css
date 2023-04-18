@@ -3,13 +3,14 @@
     margin: 0;
     box-sizing: border-box;
  }
-
+/* font style */
  body{
     font-family: 'Montserrat', sans-serif;
  }
  /* -----HEADER----- */
 header{
     background-color: rgba(255,105,0,1);
+    box-shadow: 0 0 10px 2px black;
     position: fixed;
     width: 100%;
     top: 0;
@@ -28,6 +29,10 @@ header{
     align-items: center;
     padding: 20px 0px;
  }
+/* size col logo */
+ .col_logo{
+   margin-right: 15px;
+ }
  /* size logo */
  .logo{
     width: 150px;
@@ -36,16 +41,17 @@ header{
  .inline_block{
     display: inline-block;
  }
- /* text color */
- .col_nav>h3, .col_profilo>div{
-    color: white;
+/* color and style text */
+ .row_header a{
+   text-decoration: none;
+   color: white;
  }
  /* margin nav */
  .margin_horizontal_item{
     margin: 0px 5px;
  }
  /* margin profile */
- .col_profilo>div{
+ .col_profilo>a{
     margin: 0px 2px;
  }
 
@@ -160,9 +166,14 @@ header{
  .col_info, .col_social{
     padding: 25px 0 5px 0;
  }
-/* text size p in col info */
- .col_info>p{
-    font-size: 13px;
+/* size boolean s.r.l */
+ .company{
+   font-size: 22px;
+ }
+/* style and color text footer */
+ .row_footer a{
+   text-decoration: none;
+   color: white;
  }
 /* vertical margin */
  .margin_vertical_item{
